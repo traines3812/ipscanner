@@ -1,1 +1,4 @@
 # ipscanner
+
+This script uses the socket library to scan a range of IP addresses and then scan the ports on active connections. The IP address range is set using the start_ip and end_ip variables, and the socket.inet_aton and socket.inet_ntoa functions are used to convert between IP addresses and integers. The script uses the socket.socket function to create a socket, the s.settimeout method to set a timeout, and the s.connect_ex method to connect to each IP address and port. If the connection was successful, the script prints the IP address and port number.
+Please note that scanning IP addresses and ports can have security implications and may be illegal, depending on the laws and regulations of your country. It is important to use such scripts responsibly and for legitimate purposes only.
